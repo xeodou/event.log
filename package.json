@@ -1,0 +1,32 @@
+{
+  "name": "event.log",
+  "version": "0.0.1",
+  "description": "use node event to console the log error etc. ",
+  "main": "index.js",
+  "scripts": {
+    "blanket": {
+      "pattern": "event-log/lib"
+    },
+    "travis-cov": {
+      "threshold": 95
+    },
+    "test": "make test"
+  },
+  "dependencies": {
+    "colors": "*"
+  },
+  "devDependencies": {
+    "blanket": "*",
+    "mocha": "1.x",
+    "request": "~2.21",
+    "should": "1.x",
+    "travis-cov": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xeodou/event.log.git"
+  },
+  "author": "xeodou@gmai.com",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
