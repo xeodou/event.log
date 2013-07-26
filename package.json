@@ -1,6 +1,6 @@
 {
   "name": "event.log",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "use node event to console the log error etc. ",
   "main": "index.js",
   "scripts": {
